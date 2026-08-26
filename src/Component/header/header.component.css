@@ -1,0 +1,68 @@
+
+.hello::after{
+  content: "[Ahmed Mohmed]";
+  color: var(--main-color);
+}
+
+
+.icon_a{
+  font-size: x-large;
+}
+
+.circle_img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.dis-f{
+  display: none;
+}
+
+.dis-b{
+  display: block;
+}
+
+
+@media (min-width: 772px) {
+
+.circle_img{
+  width: 150px;
+  height: 150px;
+}
+
+.dis-b{
+  display: none;
+}
+
+
+.dis-f{
+  display: block;
+}
+
+
+}
+@media (min-width: 1200px) {
+
+
+
+.circle_img{
+  width: 200px;
+  height: 200px;
+
+}
+
+.hello::after{
+  content:" [Ahmed Mohmed Abd-Elmaged]";
+  color: var(--main-color);
+}
+
+
+}

@@ -1,0 +1,28 @@
+.hei_think {
+  height: 400px;
+}
+
+.height_fix {
+  height: 150px;
+}
+
+.width-custom{
+  width: 85%;
+}
+
+
+
+.text-upp{
+  text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
+  .hei_think {
+    height: 300px;
+  }
+
+  .width-md{
+    width: 50% !important;
+  }
+
+}

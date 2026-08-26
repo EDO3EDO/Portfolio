@@ -1,0 +1,100 @@
+
+
+.font-logo{
+  font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.javascript{
+      width: 60px;
+    height: 60px;
+    background-color: #F7DF1E;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #181b1b;
+    border: 2px solid #323330;
+
+}
+.typescript{
+      width: 60px;
+    height: 60px;
+    background-color: #3178C6;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #181b1b;
+    border: 2px solid #323330;
+
+}
+
+.m_top{
+  margin-top: 100px;
+}
+
+
+
+.bang{
+  width: 115px;
+}
+
+.font-sm{
+  font-size: 0.8rem !important;
+}
+
+
+
+
+
+@media (min-width: 576px) {
+
+
+
+.font-sm{
+  font-size: 1rem !important;
+}
+
+
+}
+
+
+@media (min-width: 768px) {
+
+
+.bang{
+  width: 230px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+

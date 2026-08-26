@@ -1,0 +1,30 @@
+
+
+html, body {
+  overflow-x: hidden;
+}
+
+:root{
+  --main-color: rgb(13, 202, 240);
+}
+
+
+.text-body{
+  color:#181b1b ;
+
+}
+
+::selection {
+  background-color: black;
+  color: white !important;
+}
+
+body{
+  background-color: #181b1b;
+}
+
+
+
+
+
+

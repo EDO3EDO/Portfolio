@@ -1,0 +1,14 @@
+.a_frame{
+  font-size: large;
+    color: var(--main-color);
+
+
+}
+
+
+.a_frame:hover{
+color: white;
+}
+
+
+
