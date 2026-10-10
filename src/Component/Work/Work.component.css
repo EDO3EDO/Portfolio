@@ -1,28 +1,44 @@
+
 .hei_think {
-  height: 400px;
+  height: auto;
+  min-height: 420px;
 }
+
 
 .height_fix {
-  height: 150px;
+  height: 180px;
 }
 
-.width-custom{
+.display_x{
+  margin-top: 5px !important;
+}
+
+.width-custom {
   width: 85%;
 }
 
 
+.btn:hover {
+  background-color: transparent !important;
+}
 
-.text-upp{
+.text-upp {
   text-transform: capitalize;
 }
 
+
 @media (min-width: 768px) {
   .hei_think {
-    height: 300px;
+    min-height: 320px;
   }
 
-  .width-md{
+  .display_x{
+    margin-top: 50px !important;
+  }
+
+
+
+  .width-md {
     width: 50% !important;
   }
-
 }
